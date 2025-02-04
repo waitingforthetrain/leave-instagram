@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'comic sans';
+	src: url('assets/Comic Sans MS.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'comic sans';
+	src: url('assets/Comic Sans MS Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body, html {
+	background-color: black;
+	color: white;
+	font-family: 'comic sans', sans-serif;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	font-size: 12pt;
+}
+
+div, h1, p {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+p {
+	font-weight: normal;
+	font-size: 1rem;
+	text-align: left;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+ul {
+	text-align: left;
+}
+a {
+	color: aqua;
+}
+a:hover {
+	color: yellow;
+}
+
+div#wrapper {
+	text-align: center;
+	width: 100%;
+	max-width: 800px;
+	padding: 2rem;
+}
+
+div#wrapper > *{
+	padding-bottom: 1rem;
+}
+
+div.divider {
+	height: 6em;
+	width: 100%;
+	background: url('assets/clown_waving.gif');
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: space;
+}
+
+@media screen and (max-width: 600px) {
+  body, html {
+    font-size: 10pt;
+  }
+}
